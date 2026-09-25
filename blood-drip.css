@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kings&display=swap');
 .blood-template {
     position: relative;
     width: 700px;
@@ -63,6 +64,12 @@
         0 0 6px #b00000,
         0 0 12px #8b0000,
         2px 2px 4px #000000;
+}
+
+.kings-regular {
+  font-family: "Kings", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .quote {
