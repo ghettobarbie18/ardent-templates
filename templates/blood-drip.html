@@ -40,55 +40,55 @@ body {
 
 .drip {
     position: absolute;
-    top: 35px;
-    width: 32px;
-    height: 75px;
-    background: #8b0000;
+    top: 30px;
+    width: 30px;
+    height: 80px;
+    background: linear-gradient(to bottom, #a30000, #5c0000);
     border-radius: 0 0 50% 50%;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.6);
+    box-shadow:
+        0 4px 8px rgba(0,0,0,0.7),
+        inset -4px 0 5px rgba(255,80,80,0.15);
 }
 
 .drip.one {
-    left: 12%;
+    left: 10%;
+    width: 22px;
     height: 55px;
-    width: 25px;
+    border-radius: 0 0 60% 60%;
 }
 
 .drip.two {
-    left: 35%;
-    height: 95px;
-    width: 34px;
-}
-
-.drip.three {
-    left: 62%;
-    height: 68px;
-    width: 27px;
-}
-
-.drip.four {
-    left: 84%;
-    height: 110px;
+    left: 27%;
     width: 38px;
-}
-
-.drip.one {
-    left: 12%;
-}
-
-.drip.two {
-    left: 35%;
-    height: 90px;
+    height: 105px;
+    border-radius: 0 0 55% 55%;
 }
 
 .drip.three {
-    left: 62%;
+    left: 48%;
+    width: 20px;
     height: 70px;
+    border-radius: 0 0 70% 70%;
 }
 
 .drip.four {
-    left: 84%;
-    height: 105px;
+    left: 67%;
+    width: 45px;
+    height: 125px;
+    border-radius: 0 0 60% 60%;
+}
+
+.drip.four:after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    width: 18px;
+    height: 25px;
+    transform: translateX(-50%);
+    background: #650000;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.7);
 }
 
 .title {
