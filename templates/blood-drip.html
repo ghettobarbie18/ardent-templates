@@ -66,11 +66,25 @@ body {
 .title {
     position: relative;
     margin-top: 10px;
-    color: #c51616;
-    font-size: 34px;
-    letter-spacing: 5px;
+    color: #260606;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 6px;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px #000;
+    text-shadow:
+        1px 1px 0 #8b0000,
+        2px 2px 5px #000000;
+    z-index: 10;
+}
+
+    .title:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    margin-top: 8px;
+    background: #5c0000;
+    box-shadow: 0 1px 3px #000;
 }
 
 .quote {
