@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ardent Templates - Blood Drip</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 40px;
+    background: #0b0b0b;
+    font-family: Georgia, serif;
+}
+
+.blood-template {
+    position: relative;
+    width: 700px;
+    min-height: 500px;
+    margin: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    background: #170909;
+    color: #d8c7c7;
+    border: 1px solid #4a1111;
+    overflow: hidden;
+}
+
+/* Blood-drip top */
+.blood-template:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    background: #7d0808;
+    border-radius: 0 0 25px 25px;
+}
+
+.drip {
+    position: absolute;
+    top: 35px;
+    width: 28px;
+    height: 65px;
+    background: #7d0808;
+    border-radius: 0 0 20px 20px;
+}
+
+.drip.one {
+    left: 12%;
+}
+
+.drip.two {
+    left: 35%;
+    height: 90px;
+}
+
+.drip.three {
+    left: 62%;
+    height: 70px;
+}
+
+.drip.four {
+    left: 84%;
+    height: 105px;
+}
+
+.title {
+    position: relative;
+    margin-top: 45px;
+    color: #c51616;
+    font-size: 34px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.quote {
+    margin-top: 10px;
+    color: #8f7777;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.text {
+    width: 60%;
+    margin-top: 35px;
+    line-height: 1.7;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.image {
+    position: absolute;
+    right: 25px;
+    top: 145px;
+    width: 190px;
+    height: 260px;
+    background: #240909;
+    border: 1px solid #641313;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-quote {
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    right: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #641313;
+    color: #a83232;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+</style>
+</head>
+
+<body>
+
+<div class="blood-template">
+
+    <div class="drip one"></div>
+    <div class="drip two"></div>
+    <div class="drip three"></div>
+    <div class="drip four"></div>
+
+    <div class="title">
+        TITLE / NAME
+    </div>
+
+    <div class="quote">
+        "A dark quote goes here..."
+    </div>
+
+    <div class="text">
+        This is where your template text goes. You can place
+        character information, lyrics, roleplay text, or a
+        description here.
+    </div>
+
+    <div class="image">
+    </div>
+
+    <div class="footer-quote">
+        Your lyrics or quote here
+    </div>
+
+</div>
+
+</body>
+</html>
