@@ -53,6 +53,7 @@
     position: relative;
     margin-top: 10px;
     color: #180303;
+    font-family: "Babylonica", cursive;
     font-size: 36px;
     font-weight: bold;
     letter-spacing: 6px;
@@ -64,6 +65,12 @@
         0 0 6px #b00000,
         0 0 12px #8b0000,
         2px 2px 4px #000000;
+}
+
+.babylonica-regular {
+  font-family: "Babylonica", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .quote {
