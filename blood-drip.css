@@ -108,23 +108,13 @@
 }
 
 .image {
-    position: absolute;
-    right: 25px;
-    top: 145px;
-    width: 190px;
-    height: 260px;
-
     background-image:
-        linear-gradient(rgba(140, 0, 0, 0.55), rgba(120, 0, 0, 0.40)),
-        url("https://raw.githubusercontent.com/ghettobarbie18/ardent-templates/refs/heads/main/woman.jpg");
+        linear-gradient(rgba(120, 0, 0, 0.35), rgba(120, 0, 0, 0.35)),
+        url("https://raw.githubusercontent.com/ghettobarbie18/ardent-templates/refs/heads/main/iffany-woman-8687576_1920.png");
 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-    border: 1px solid #641313;
-
-    box-shadow: 0 0 15px rgba(120, 0, 0, 0.7);
 }
 
 .footer-quote {
