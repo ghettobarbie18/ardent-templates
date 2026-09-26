@@ -115,7 +115,7 @@
     height: 260px;
 
     background-image:
-        linear-gradient(rgba(120, 0, 0, 0.35), rgba(120, 0, 0, 0.35)),
+        linear-gradient(rgba(140, 0, 0, 0.55), rgba(120, 0, 0, 0.40)),
         url("https://raw.githubusercontent.com/ghettobarbie18/ardent-templates/refs/heads/main/woman.jpg");
 
     background-size: cover;
