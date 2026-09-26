@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 .blood-template {
     position: relative;
     width: 700px;
@@ -69,9 +69,11 @@
         2px 2px 4px #000000;
 }
 
-.arizonia-regular {
-  font-family: "Arizonia", cursive;
-  font-weight: 400;
+
+.edu-qld-hand-<uniquifier> {
+  font-family: "Edu QLD Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -81,18 +83,18 @@
   font-style: normal;
 }
 
-.cormorant-garamond-<uniquifier> {
-  font-family: "Cormorant Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
+.philosopher-regular {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
   font-style: normal;
 }
+
 
 .quote {
     margin-top: 2px;
     color: #8f7777;
     font-style: italic;
-    font-family: "Arizonia", cursive;
+    font-family: "Edu QLD Hand", cursive;
     font-size: 25px;
     letter-spacing: 2px;
 }
@@ -101,7 +103,7 @@
     width: 60%;
     margin-top: 35px;
     line-height: 1.7;
-    font-family: "Cormorant Garamond", serif;
+    font-family: "Philosopher", sans-serif;
     font-size: 13px;
     text-align: justify;
 }
@@ -128,7 +130,7 @@
     color: #a83232;
     font-size: 14px;
     font-family: "Cormorant Garamond", serif;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     text-align: center;
     text-transform: uppercase;
 }
