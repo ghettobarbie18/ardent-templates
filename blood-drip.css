@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 .blood-template {
     position: relative;
     width: 700px;
@@ -87,6 +88,13 @@
   font-style: normal;
 }
 
+.cormorant-garamond-<uniquifier> {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 .quote {
     margin-top: 10px;
     color: #8f7777;
@@ -99,7 +107,7 @@
     width: 60%;
     margin-top: 35px;
     line-height: 1.7;
-    font-family: Arial, sans-serif;
+    font-family: "Cormorant Garamond", serif;
     font-size: 13px;
     text-align: justify;
 }
