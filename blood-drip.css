@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap');
 .blood-template {
     position: relative;
     width: 700px;
@@ -80,6 +81,12 @@
   font-style: normal;
 }
 
+.dr-sugiyama-regular {
+  font-family: "Dr Sugiyama", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .quote {
     margin-top: 10px;
     color: #8f7777;
@@ -118,6 +125,7 @@
     border-top: 1px solid #641313;
     color: #a83232;
     font-size: 14px;
+    font-family: "Dr Sugiyama", cursive;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
