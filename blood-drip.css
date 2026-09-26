@@ -89,11 +89,12 @@
 }
 
 .quote {
-    margin-top: 10px;
+    margin-top: 5px;
     color: #8f7777;
     font-style: italic;
     font-family: "Arizonia", cursive;
-    font-size: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
 
 .text {
