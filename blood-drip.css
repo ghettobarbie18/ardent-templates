@@ -25,13 +25,13 @@
 
 /* Evenly spaced blood drips */
 .drip.one       { left: 2%;     width: 16px; height: 38px; }
-.drip.two       { left: 8.85%;  width: 27px; height: 65px; }
-.drip.three     { left: 15.7%;  width: 14px; height: 32px; }
-.drip.four      { left: 22.55%; width: 35px; height: 82px; }
-.drip.five      { left: 29.4%;  width: 18px; height: 48px; }
-.drip.six       { left: 36.25%; width: 30px; height: 72px; }
-.drip.seven     { left: 43.1%;  width: 13px; height: 35px; }
-.drip.eight     { left: 45%; width: 40px; height: 95px; }
+.drip.two       { left: 7%;  width: 27px; height: 65px; }
+.drip.three     { left: 14%;  width: 14px; height: 32px; }
+.drip.four      { left: 20%; width: 35px; height: 82px; }
+.drip.five      { left: 29%;  width: 18px; height: 48px; }
+.drip.six       { left: 36%; width: 30px; height: 72px; }
+.drip.seven     { left: 43%;  width: 13px; height: 35px; }
+.drip.eight     { left: 48%; width: 40px; height: 95px; }
 .drip.nine      { left: 54%;  width: 17px; height: 45px; }
 .drip.ten       { left: 62%; width: 32px; height: 78px; }
 .drip.eleven    { left: 70%;  width: 14px; height: 38px; }
