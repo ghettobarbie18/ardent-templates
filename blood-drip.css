@@ -31,14 +31,14 @@
 .drip.five      { left: 29.4%;  width: 18px; height: 48px; }
 .drip.six       { left: 36.25%; width: 30px; height: 72px; }
 .drip.seven     { left: 43.1%;  width: 13px; height: 35px; }
-.drip.eight     { left: 49.95%; width: 40px; height: 95px; }
-.drip.nine      { left: 56.8%;  width: 17px; height: 45px; }
-.drip.ten       { left: 63.65%; width: 32px; height: 78px; }
-.drip.eleven    { left: 70.5%;  width: 14px; height: 38px; }
-.drip.twelve    { left: 77.35%; width: 38px; height: 88px; }
-.drip.thirteen  { left: 84.2%;  width: 18px; height: 50px; }
-.drip.fourteen  { left: 91.05%; width: 30px; height: 70px; }
-.drip.fifteen   { left: 97.9%;  width: 15px; height: 40px; }
+.drip.eight     { left: 45%; width: 40px; height: 95px; }
+.drip.nine      { left: 54%;  width: 17px; height: 45px; }
+.drip.ten       { left: 62%; width: 32px; height: 78px; }
+.drip.eleven    { left: 70%;  width: 14px; height: 38px; }
+.drip.twelve    { left: 75%; width: 38px; height: 88px; }
+.drip.thirteen  { left: 82%;  width: 18px; height: 50px; }
+.drip.fourteen  { left: 89%; width: 30px; height: 70px; }
+.drip.fifteen   { left: 95%;  width: 15px; height: 40px; }
 
 .title {
     position: relative;
